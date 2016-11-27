@@ -1,0 +1,50 @@
+@ 0.11 seconds: gonnaRequireLodashCli
+@ 0.45 seconds: hasRequiredLodashCli
+@ 0.46 seconds: invokeLodashCli
+/**
+ * @license
+ * Lodash (Custom Build) <https://lodash.com/>
+ * Build: `lodash category="util" include="each" exports="amd,global"`
+ * Copyright JS Foundation and other contributors <https://js.foundation/>
+ * Released under MIT license <https://lodash.com/license>
+ * Based on Underscore.js 1.8.3 <http://underscorejs.org/LICENSE>
+ * Copyright Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
+ 
+{ child: 18140, spawn: [ 'java', '-version' ] }
+{ child: 18156,
+  spawn: 
+   [ 'java',
+     '-jar',
+     '/…/node_modules/google-closure-compiler/compiler.jar',
+     '--charset',
+     'ascii',
+     '--compilation_level',
+     'simple_optimizations',
+     '--warning_level',
+     'quiet' ] }
+{ child: 18140, end: 'err' }
+{ child: 18140, end: 'out' }
+{ child: 18140, end: 'in' }
+{ despawn: 18140,
+  retval: 0,
+  signal: null,
+  cmd: [ 'java', '-version' ] }
+@ 23.42 seconds: scheduleForcedExit
+lostChildren: { '18156': 
+   [ 'java',
+     '-jar',
+     '/…/node_modules/google-closure-compiler/compiler.jar',
+     '--charset',
+     'ascii',
+     '--compilation_level',
+     'simple_optimizations',
+     '--warning_level',
+     'quiet' ] }
+[WTF Node?] open handles:
+- File descriptors: (note: stdio always exists)
+  - fd 1 (stdio)
+  - fd 2 (tty) (stdio)
+- Child processes
+  - PID 18156
+    - STDIO file descriptors: 16, 18
+@ 23.93 seconds: process.exit

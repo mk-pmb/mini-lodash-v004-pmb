@@ -1,0 +1,35 @@
+{ "name": "mini-lodash-v004-pmb",
+  "version": "0.0.1",
+  "description": "lodash v4.x, minified, on npm.",
+  "keywords": [ "lodash", "minified" ],
+
+  "author": "M.K. (https://github.com/mk-pmb)",
+  "homepage": "https://github.com/mk-pmb/mini-lodash-v004-pmb#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mk-pmb/mini-lodash-v004-pmb.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mk-pmb/mini-lodash-v004-pmb/issues"
+  },
+
+  "private": false, "license": "MIT",
+
+  "main": "dist/glo_amd.js",
+  "scripts": {
+    "test": "nodejs test/all.js"
+  },
+  "directories": {
+    "doc": "doc",
+    "test": "test"
+  },
+
+  "dependencies": {},
+  "devDependencies": {
+    "lodash-cli": "^4.17.1",
+    "wtfnode": "^0.4.0"
+  },
+
+
+  "npm vs. BOM = Unexpected token": "-*- coding: UTF-8 -*-"
+}
